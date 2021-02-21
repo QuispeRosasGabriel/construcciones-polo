@@ -1,7 +1,9 @@
+import styles from '../styles/Components.module.scss'
+
 const Footer = () => (
-    <div className="">
+    <footer className={styles.footer}>
         <div>Construcciones Polo - Todos los derechos reservados</div>
-    </div>
+    </footer>
 )
 
 export default Footer;

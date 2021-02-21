@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+
+    &_option {
+        list-style: none;
+        cursor: pointer;
+    }
+
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
