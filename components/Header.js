@@ -9,7 +9,7 @@ const Header = () => (
             <title>Create Next App</title>
             <link rel="icon" href="/favicon.ico" />
         </Head>
-        <div>
+        <nav>
             <ul className={styles.header}>
                 {
                     menuList.map((item, idx) => (
@@ -17,7 +17,7 @@ const Header = () => (
                     ))
                 }
             </ul>
-        </div>
+        </nav>
     </>
 );
 
